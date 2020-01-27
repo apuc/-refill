@@ -6,7 +6,6 @@
 - Install components
 ```shell
 composer install
-npm install
 ```
 - Rename .env.example to .env and change DB settings
 
