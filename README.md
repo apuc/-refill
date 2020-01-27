@@ -25,3 +25,7 @@ npm install
 - Seed database
 
 `php artisan db:seed`
+
+Test user:
+email: test@test.test
+password: test123
