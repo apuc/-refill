@@ -1,7 +1,7 @@
 ## Installation
 
 -Clone project
-`git clone https://github.com/MaximGos/project.git`
+`git clone https://github.com/Leorne/payment.git`
 
 - Install components
 ```shell
@@ -14,10 +14,14 @@ npm install
 
 `php artisan key:generate`
 
+- Migrate database
+
+`php artisan migrate`
+
 - Init laravel:passport package
 
 `php artisan passport:install --force`
 
-- Create link to file storage
+- Seed database
 
-`php artisan storage:link`
+`php artisan db:seed`
