@@ -3,7 +3,7 @@
 2. [Vue.js 2.6]
 
 
-##Used main technologies
+## Used main technologies
 1. [Laravel Passport]
 2. [Vuex]
 3. [Vue Router]
