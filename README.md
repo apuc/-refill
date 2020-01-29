@@ -1,7 +1,7 @@
 ## Installation
 
 -Clone project
-`git clone https://github.com/Leorne/payment.git`
+`git clone https://github.com/apuc/-refill.git`
 
 - Install components
 ```shell
