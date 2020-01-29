@@ -24,7 +24,6 @@ class UserBalanceFormRequest extends FormRequest
     public function rules()
     {
         return [
-//            'phone' => 'required|regex:~^((\+7|7|8)+([0-9]){10})$~',
             'phone' => ['required', 'regex:~^((\+7|7|8)+([0-9]){10})$~'],
             'amount' => 'required|numeric|min:1|max:1000'
         ];

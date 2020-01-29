@@ -18,7 +18,7 @@ class AuthController extends Controller
             'grant_type' => 'password',
             'client_id' => $client->id,
             'client_secret' => $client->secret,
-            'username' => request('name'),
+            'username' => request('email'),
             'password' => request('password'),
         ];
 
