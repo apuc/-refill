@@ -1,3 +1,13 @@
+## Used frameworks
+1. [Laravel 6.2]  
+2. [Vue.js 2.6]
+
+
+##Used main technologies
+1. [Laravel Passport]
+2. [Vuex]
+3. [Vue Router]
+
 ## Installation
 
 -Clone project
@@ -27,3 +37,13 @@ composer install
 Test user:
 email: test@test.test
 password: test123
+
+
+- [Frontend README.md](https://github.com/apuc/-refill/blob/master/frontend/README.md)
+
+
+[Laravel]: <https://laravel.com/>
+[Laravel Passport]: <https://laravel.com/docs/6.x/passport>
+[Vue.js]: <https://vuejs.org/>
+[Vuex]: <https://vuex.vuejs.org/>
+[Vue Router]: <https://router.vuejs.org/>
