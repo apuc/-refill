@@ -42,8 +42,8 @@ password: test123
 - [Frontend README.md](https://github.com/apuc/-refill/blob/master/frontend/README.md)
 
 
-[Laravel]: <https://laravel.com/>
+[Laravel 6.2]: <https://laravel.com/>
 [Laravel Passport]: <https://laravel.com/docs/6.x/passport>
-[Vue.js]: <https://vuejs.org/>
+[Vue.js 2.6]: <https://vuejs.org/>
 [Vuex]: <https://vuex.vuejs.org/>
 [Vue Router]: <https://router.vuejs.org/>
