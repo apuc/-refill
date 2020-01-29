@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\DB;
 
 class AuthController extends Controller
 {
+    /**
+     * @return mixed
+     */
     public function login()
     {
         $client = DB::table('oauth_clients')
@@ -26,6 +29,9 @@ class AuthController extends Controller
         return app()->handle($request);
     }
 
+    /**
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function logout()
     {
         $accessToken = auth('api')->user()->token();
